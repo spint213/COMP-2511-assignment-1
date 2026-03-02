@@ -21,11 +21,42 @@
 
   <footer>
   <form>
-    <label for="firstname"> First Name: </label>
-    <input type="text" id="firstname">
+    <legend> Contact Us </legend>
+    <dl>
+      <dt> <label for="firstname"> First Name: </label> </dt>
+      <dd>
+        <input type="text" name="firstname">
+      </dd>
+    </dl>
+    <dl>
+      <dt> <label for="lastname"> Last Name: </label> </dt>
+      <dd>
+        <input type="text" name="lastname">
+      </dd>
+    </dl>
+    <dl>
+      <dt> <label for="email"> Email: </label> </dt>
+      <dd>
+        <input type="text" name="email" pattern="[A-Za-z0-9]+@[A-Za-z]+.[A-Za-z]+" placeholder="johndoe@example.com">
+      </dd>
+    </dl>
+    <dl>
+      <dt> <label for="phone"> Phone number: </label> </dt>
+      <dd>
+        <input type="text" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} placeholder="123-123-1234">
+      </dd>
+    </dl>
+    <dl>
+      <dt> <label for="terms"> Have you read our terms and conditions? </label> </dt>
+      <dd>
+        <input type="radio" name=terms"> Yes </input>
+        <input type="radio" name=terms"> No </input>
+      </dd>
+    </dl>
   </form>
   </footer>
 
 </body>
+
 
 </html>
