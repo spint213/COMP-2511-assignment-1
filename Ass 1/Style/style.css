@@ -1,5 +1,10 @@
 h1 {text-align: center}
 body {background-color: lightgrey}
-nav ul{text-align: center; list-style-type: none;}
- nav ul li{display: inline-block;} h1 {text-align: center}
+nav {text-align: center;}
+h1 {text-align: center}
 body {background-color: lightgrey}
+.subject{width: 200px;}
+.body{width: 400px; height: 200px;}
+.home-gary{border-radius: 100px; align-items: center;padding: 30px;}
+form{background: darkgray; padding: 10px; border-radius: 1%;}
+.card-container{border-radius: 5%; width: 200px;height: 270px;}
