@@ -29,7 +29,7 @@
     <dl>
       <dt> <label for="firstname"> First Name: </label> </dt>
       <dd>
-        <input type="text" name="firstname" autofocus>
+        <input type="text" name="firstname" required autofocus>
       </dd>
     </dl>
     <dl>
@@ -41,13 +41,13 @@
     <dl>
       <dt> <label for="email"> Email: </label> </dt>
       <dd>
-        <input type="text" name="email" pattern="[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]+" placeholder="johndoe@example.com">
+        <input type="text" name="email" pattern="[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]+" placeholder="johndoe@example.com" required>
       </dd>
     </dl>
     <dl>
       <dt> <label for="phone"> Phone number: </label> </dt>
       <dd>
-        <input type="text" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-123-1234">
+        <input type="text" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-123-1234" required>
       </dd>
     </dl>
     <dl>  
@@ -74,6 +74,10 @@
         <input type="checkbox"> Advertisemnet </input> 
         <input type="checkbox"> Other </input>
       </dd>
+    </dl>
+    <dl>
+      <input type="submit">
+      <input type="reset">
     </dl>
   </form>
   </footer>
