@@ -8,3 +8,10 @@ body {background-color: lightgrey}
 .home-gary{border-radius: 100px; align-items: center;padding: 30px;}
 form{background: darkgray; padding: 10px; border-radius: 1%;}
 .card-container{border-radius: 5%; width: 200px;height: 270px;}
+
+.rowtitles{background-color: rgb(122, 127, 144);}
+.h1{background-color: rgb(166, 168, 174);}
+.h2{background-color: rgb(122, 127, 144);}
+table, th, td{
+    background-color: rgba(87, 92, 100, 0.286);
+}
