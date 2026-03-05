@@ -1,17 +1,26 @@
+body.home {background-color: lightgrey}
+body.printings{background-color: rgb(76, 76, 107);}
+body.about {background-color: rgb(143, 148, 132);}
+
+/*Home page style*/
 h1 {text-align: center}
 body {background-color: lightgrey}
-nav {text-align: center;}
+nav ul{display: flex; justify-content: center; list-style: none; padding: 0%;}
+nav ul li{padding-right: 15px;}
 h1 {text-align: center}
-body {background-color: lightgrey}
+form{background: darkgray; padding: 10px; border-radius: 1%;}
+/*Home page classes*/
+.home-gary{border-radius: 100px; align-items: center;padding: 30px;}
 .subject{width: 200px;}
 .body{width: 400px; height: 200px;}
-.home-gary{border-radius: 100px; align-items: center;padding: 30px;}
-form{background: darkgray; padding: 10px; border-radius: 1%;}
+
+/*Printings page style*/
+ol {display: flex; list-style: none; padding: 0%;}
+ol li{padding-right: 15%; padding-top: 4px;}
+ol.bottom-row{padding-left: 15%; padding-right: 0%;}
+/*Printing page classes*/
 .card-container{border-radius: 5%; width: 200px;height: 270px;}
 
-.rowtitles{background-color: rgb(122, 127, 144);}
-.h1{background-color: rgb(166, 168, 174);}
-.h2{background-color: rgb(122, 127, 144);}
-table, th, td{
-    background-color: rgba(87, 92, 100, 0.286);
-}
+/*About page style*/
+table, th, td{background-color: rgba(87, 92, 100, 0.286);}
+section {display: flex;}
