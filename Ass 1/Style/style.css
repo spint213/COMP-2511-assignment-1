@@ -1,20 +1,26 @@
+h1 {text-align: center; padding: 0%;}
+footer {width: 100%; height: 200px; background-color: aliceblue;}
+
 body.home {background-color: lightgrey}
 body.printings{background-color: rgb(76, 76, 107);}
 body.about {background-color: rgb(143, 148, 132);}
 
+
 /*Home page style*/
-h1 {text-align: center; padding: 0%;}
-body {background-color: lightgrey}
+p.intro::first-letter{font-size: 50px;}
 nav ul{display: flex; justify-content: center; list-style: none; padding: 0%;}
 nav ul li{padding-right: 15px;}
 h1 {text-align: center}
-form{background: darkgray; padding: 10px; border-radius: 1%;}
+form {background: darkgray; padding: 10px; border-radius: 1%;}
+input[type="text"] {background-color: rgb(113, 93, 112);}
 /*Home page classes*/
 .home-gary{border-radius: 4%; display: block; margin: auto;}
 .subject{width: 200px;}
 .body{width: 400px; height: 200px;}
+.footer-gary{float: right; height: 200px;}
 
 /*Printings page style*/
+.printings a:link{color: yellow;}
 ol {display: flex; list-style: none; padding: 0%;}
 ol li{padding-right: 15%; padding-top: 4px;}
 ol.bottom-row{padding-left: 15%; padding-right: 0%;}
@@ -22,5 +28,7 @@ ol.bottom-row{padding-left: 15%; padding-right: 0%;}
 .card-container{border-radius: 5%; width: 200px;height: 270px;}
 
 /*About page style*/
-table, th, td{background-color: rgba(87, 92, 100, 0.286);}
+.about a:link{color: beige;}
+tr:nth-child(even) {background-color: rgb(100, 96, 96);}
+tr:nth-child(odd) {background-color: rgb(141, 132, 132);}
 section {display: flex;}

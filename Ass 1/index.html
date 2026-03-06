@@ -7,24 +7,25 @@
 </head>
 
 <body class="home">
+
   <header>
-  <h1> Home </h1>
-  <nav> 
-    <ul>
-      <li> <a href="index.html"> Home </a> </li>
-      <li> <a href="printings.html"> Printings </a> </li>
-      <li> <a href="about.html	"> About </a> </li>
-    </ul>
-  </nav>
+    <h1> Home </h1>
+    
+    <nav> 
+      <ul>
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="printings.html"> Printings </a> </li>
+        <li> <a href="about.html	"> About </a> </li>
+      </ul>
+    </nav>
   </header>
 
   <h2> Welcome! </h2>
-  <p> This page is dedicated to the gray merchant, a card from MTG. </p>
+  <p class="intro"> This page is dedicated to the gray merchant, a card from MTG. </p>
 
   <img src="Images/gary-theros.jpg" alt="Gray Merchant of Asphodel" class="home-gary">
 
-  <footer>
-  <form action="" method="post">
+  <form action="mailto:spint213@mtroyal.ca" method="post">
     <legend> For futher questions contact us! </legend>
     <dl>
       <dt> <label for="firstname"> First Name: </label> </dt>
@@ -70,9 +71,9 @@
     <dl>
       <dt> <label for="mc"> How did you hear about us? </label> </dt>
       <dd>
-        <input type="checkbox"> Friends </input>
-        <input type="checkbox"> Advertisemnet </input> 
-        <input type="checkbox"> Other </input>
+        <input type="checkbox" name="mc"> Friends </input>
+        <input type="checkbox" name="mc"> Advertisemnet </input> 
+        <input type="checkbox" name="mc"> Other </input>
       </dd>
     </dl>
     <dl>
@@ -80,7 +81,10 @@
       <input type="reset">
     </dl>
   </form>
-  </footer>
+  
+  <img src="Images/gary-theros.jpg" alt="Gray Merchant of Asphodel" class="footer-gary">
+
+  <footer> Hi, I'm a footer. To my right is a floating image of gary. </footer>
 
 </body>
 
