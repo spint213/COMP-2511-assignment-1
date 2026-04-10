@@ -13,21 +13,24 @@ nav ul {
   padding: 0;
 }
 
-.similar-cards {
-  display: grid;
+.home-gary {
+  display: block;
+  margin: 0 auto;
 }
 
 img {
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 200px;
+}
+
+.similar-cards {
+  display: grid;
+  border: 2px solid black;
 }
 
 .printings {
   display: grid;
-}
-
-.card {
-  
+  grid-template-columns: 1fr;
 }
 
 table {
@@ -51,11 +54,11 @@ th, td {
   }
 
   .similar-cards {
-    grid-template colums: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .printings {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -70,7 +73,11 @@ th, td {
     display: inline;
   }
 
-  .printings {
+  .similar-cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .printings {
+    grid-template-columns: 1fr 1fr;
   }
 }
