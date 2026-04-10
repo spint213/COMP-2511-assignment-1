@@ -22,8 +22,8 @@ nav ul li {
 
 .card {
   background-color: red;
-  width: 30%;
-  height: 300px;
+  width: auto;
+  height: auto;
 }
 
 div figure img {
@@ -31,16 +31,19 @@ div figure img {
   height: 100%;
 }
 .about{
+  display: grid;
   width: 100%;
-  height:auto;
+  height:100%;
   padding: 20px;
   border: 5px solid black;
   margin: 10px;
   background-color: lightgrey;
+  overflow:scroll;
 
-.card-container{
-height:25%;
-width: 25%;
+.display-similar{
+  width: 10%;
+  height: auto;
+  margin: auto;
 }
 
 }
@@ -53,6 +56,45 @@ flex-shrink: 0;
 
 }
 @media screen and (max-width: 320px) {
+  .grid{
+    columns:2;
+  }
+  .card{
+    height:auto;
+    width:auto;
+  }
+  .imgtest{
+    height:170%;
+    width:170%;
+
+  }
   
+
+  .about{
+  display: grid;
+  width: 100%;
+  height:auto;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: lightgrey;
+    overflow:scroll;
+
+
+.card-container{
+height:25%;
+width: 25%;
+}
+
+}
+.similar-cards{
+columns:2
+
+}
+.display-similar{
+  width: auto;
+  height: auto;
+  margin: 5px;
+}
 }
 
