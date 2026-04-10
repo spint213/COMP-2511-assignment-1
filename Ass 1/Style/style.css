@@ -1,7 +1,6 @@
 .logo-gary {
-  float: left;
-  width: 50px;
-  height: 25px;
+  width: 35px;
+  height: 50px;
 }
 
 header {
@@ -10,99 +9,68 @@ header {
 
 nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li {
-  display: inline; 
+.similar-cards {
+  display: grid;
 }
 
-.grid {
-  columns: 3;
+img {
+  height: 200px;
+  width: 300px;
+}
+
+.printings {
+  display: grid;
 }
 
 .card {
-  background-color: red;
-  width: auto;
-  height: auto;
-}
-.home-gary{
-  height:auto;
-  width: 100px;
-  float: right;
-}
-div figure img {
-  width: 100%;
-  height: 100%;
-}
-.about{
-  display: grid;
-  width: 100%;
-  height:100%;
-  padding: 20px;
-  border: 5px solid black;
-  margin: 10px;
-  background-color: lightgrey;
-  overflow:scroll;
-
-.display-similar{
-  width: 10%;
-  height: auto;
-  margin: auto;
+  
 }
 
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
-.similar-cards{
-display: flex;
-flex-shrink: 0;
-  align-items: flex-start;
-  max-width: 100%;
-  height: 100px;
 
+th, td {
+  border: 1px solid black;
 }
-@media screen and (max-width: 320px) {
-  .grid{
-    columns:2;
-  }
-  .card{
-    height:auto;
-    width:auto;
-  }
-  .imgtest{
-    height:170%;
-    width:170%;
 
+@media (min-width: 590px) {
+  .logo-gary {
+    float: left;
+    width: 35px;
+    height: 50px;
   }
   
-.home-gary{
-  height:auto;
-  width: 160px;
-  float: right;
-}
-  .about{
-  display: grid;
-  width: 100%;
-  height:auto;
-  padding: 20px;
-  border: 5px solid black;
-  margin: 10px;
-  background-color: lightgrey;
-    overflow:scroll;
+  nav ul li {
+    display: inline;
+  }
 
+  .similar-cards {
+    grid-template colums: 1fr 1fr 1fr;
+  }
 
-.card-container{
-height:25%;
-width: 25%;
+  .printings {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-}
-.similar-cards{
-columns:2
+@media (min-width: 790px) {
+  .logo-gary {
+    float: left;
+    width: 35px;
+    height: 50px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
 
+  .printings {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
-.display-similar{
-  width: auto;
-  height: auto;
-  margin: 5px;
-}
-}
-
