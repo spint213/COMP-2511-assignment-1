@@ -25,7 +25,11 @@ nav ul li {
   width: auto;
   height: auto;
 }
-
+.home-gary{
+  height:auto;
+  width: 100px;
+  float: right;
+}
 div figure img {
   width: 100%;
   height: 100%;
@@ -69,7 +73,11 @@ flex-shrink: 0;
 
   }
   
-
+.home-gary{
+  height:auto;
+  width: 160px;
+  float: right;
+}
   .about{
   display: grid;
   width: 100%;
