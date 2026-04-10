@@ -3,13 +3,17 @@
 
 <head>
   <title> Home </title>
+  <link rel="stylesheet" href="Style/normalize.css">
   <link rel="stylesheet" href="Style/style.css">
   <meta charset="utf-8">
   <meta name="description" content="Home page for Gary">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
 </head>
 
 <body class="home">
+
+<main>
 
   <header>
     <a href="index.html"> <img src="Images/gary-theros.jpg" alt="Gray Merchant of Asphodel" class="logo-gary"> </a>
@@ -18,9 +22,9 @@
     
     <nav> 
       <ul>
-        <li> <a href="index.html"> Home </a> </li>
-        <li> <a href="printings.html"> Printings </a> </li>
-        <li> <a href="about.html	"> About </a> </li>
+        <li> <a href=#about> About </a> </li>
+        <li> <a href=#similar-cards> Similar Cards </a> </li>
+        <li> <a href=#printings> Printings </a> </li>
       </ul>
     </nav>
   </header>
@@ -33,13 +37,12 @@
 
   <img src="Images/gary-theros.jpg" alt="Gray Merchant of Asphodel" class="home-gary">
 
-<div class ="about">
-  <h2>About the Card</h2>
-  <p>Gray Merchant of Asphodel, often referred to as Gary, is a Magic the Gathering card originally printed in 2013. It has since then been reprinted many times since then, with the most recent printing in 2025. This card is often used to finish games, or greatly swing them in one player's favour. Due to the wording of this card, the life gained greatly increases depending on the number of opponents you have. </p>
+  <div class="about" id="about">
   
-  <section>
-
-    <table border="2">
+    <h2>About the Card</h2>
+    <p>Gray Merchant of Asphodel, often referred to as Gary, is a Magic the Gathering card originally printed in 2013. It has since then been reprinted many times since then, with the most recent printing in 2025. This card is often used to finish games, or greatly swing them in one player's favour. Due to the wording of this card, the life gained greatly increases depending on the number of opponents you have. </p>
+    <table>
+      <caption>Relevant Mechanics of Gray Merchant of Asphodel</caption>
       <tr>
         <th colspan="2">Relevant Mechanics</th>
       </tr>
@@ -60,82 +63,85 @@
         <td>Life loss in magic the gathering is not the same as damage, and can very rarely be prevented, unlike damage. However, damage causes loss of life.</td>
       </tr>
     </table>
-  </section>
-<h2>Similar Cards</h2>
-  <div class = "similar-cards">
-    <figure class = "display-similar">
-        <img src="Images/kokusho.jpg" alt="Kokushso the evening star" >
+    
+    <div class="similar-cards" id="similar-cards">
+    <h2>Similar Cards</h2>
+      <figure>
+        <img src="Images/kokusho.jpg" alt="Kokushso the evening star" class="card-container">
         <a href="https://scryfall.com/card/ima/95/kokusho-the-evening-star">Kokusho, the evening star</a>
-        
-    </figure>
-    <figure class = "display-similar">  
-        <img src="Images/ths-121-fanatic-of-mogis.jpg" alt="Fanatic of Mogis"class=>
+      </figure>
+    </div>
+    <div class="similar-cards">
+      <figure>  
+        <img src="Images/ths-121-fanatic-of-mogis.jpg" alt="Fanatic of Mogis" class="card-container">
         <a href="https://scryfall.com/card/ths/121/fanatic-of-mogis">Fanatic of Mogis</a>
-    </figure>
-    <figure class = "display-similar">
-        <img src="Images/exsanguinate.jpg" alt="Exsanguinate" >
+      </figure>
+    </div>
+    <div class="similar-cards">
+      <figure>
+        <img src="Images/exsanguinate.jpg" alt="Fanatic of Mogis" class="card-container">
         <a href="https://scryfall.com/card/cmm/638/exsanguinate">Exsanguinate</a>
-  
-    </figure>
+      </figure>
+    </div>
+
   </div>
-
-</div>
-
-<h2>Printings</h2>
-  <div class="grid">
+  
+  
+  <div class="printings" id="printings">
 
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-theros.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-theros.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/ths/89/gray-merchant-of-asphodel">Source</a>: Theros, 2013</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-commander2014.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-commander2014.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/c14/146/gray-merchant-of-asphodel">Source</a>: Commander, 2014</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-therosbeyond.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-therosbeyond.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/thb/99/gray-merchant-of-asphodel">Source</a>: Theros Beyond Death, 2020</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-therosbeyondv2.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-therosbeyondv2.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/thb/355/gray-merchant-of-asphodel">Source</a>: Theros Beyond Death, 2020</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-timespiralremaster.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-timespiralremaster.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/tsr/323/gray-merchant-of-asphodel">Source</a>: Time Spiral Remastered, 2021</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-startercmdr.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-startercmdr.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/scd/80/gray-merchant-of-asphodel">Source</a>: Starter Commander Decks, 2022</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-duskmourncmdr.jpg" alt="Gray Merchant of Asphodel">
+        <img src="Images/gary-duskmourncmdr.jpg" alt="Gray Merchant of Asphodel">
         <figcaption><a href="https://scryfall.com/card/dsc/142/gray-merchant-of-asphodel">Source</a>: Duskmourn Commander Decks, 2024</figcaption>
       </figure>
     </div>
     <div class="card">
       <figure>
-        <img class = "imgtest" src="Images/gary-secretlair.jpg" alt="Gray Merchant of Asphodel">
-        <figcaption><a href="https://scryfall.com/card/slc/7/gray-merchant-of-asphodel">Source</a>: Secret Lair Countdown, 2025</figcaption>
+        <img src="Images/gary-secretlair.jpg" alt="Gray Merchant of Asphodel">
+        <figcaption><a href="https://scryfall.com/card/slc/7/gray-merchant-of-asphodel" class="card-container">Source</a>: Secret Lair Countdown, 2025</figcaption>
       </figure>
     </div>
 
   </div>
   
-</body>
+</main>
 
+</body>
 
 </html>
